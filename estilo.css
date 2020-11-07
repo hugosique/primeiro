@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
+
+*{
+    font-family: 'Syne Mono', sans-serif;
+}
+
+.menu {
+    background-color:  #0B6FA4;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.menu a {
+    float: left;
+    color: #F1F1F1;
+    text-align: center;
+    padding: 10px;
+    font-size: 17px;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    background-color: #dddddd;
+    color: #000000;
+    border-radius: 5%;
+}
+
+.menu a.ativo {
+    background-color: #4caf50;
+    color: white;
+}
+
+.form {
+    background-color:#0B6FA4;
+    color: white;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: row;   
+}
+.form-group label {
+    flex: none;
+    display: block;
+    width: 120px;
+    font-weight: bold;
+    font-size: 18;
+}
+.form-group label.right-inline {
+    text-align: right;
+    padding-right: 8px;
+    padding-left: 8px;
+    width: auto;
+}
+.form-group .input-control {
+    display: block;
+    margin-bottom: 10px;
+    margin-right: 8;
+    padding: 4px;
+    flex: 1 1 auto;
+}
+button {
+    cursor: pointer;
+    border-radius: 10%;
+    outline: inherit;
+    padding: 5px;
+    color: black;
+    background-color: white;
+    margin: 5px;
+    min-width: 100px;
+}
+button:hover {
+   background-color:#4caf50;
+   font-weight: bold;
+   color: white;
+}
+legend {
+    font-weight: bold;
+    font-size: 22px;
+    margin: 10px;
+}
+
+/* Estilo da Tabela*/
+
+table.paleBlueRows {
+    border: 1px solid #FFFFFF;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    border-collapse: collapse;
+  }
+  table.paleBlueRows td, table.paleBlueRows th {
+    border: 1px solid #FFFFFF;
+    padding: 3px 2px;
+  }
+  table.paleBlueRows tbody td {
+    font-size: 16px;
+  }
+  table.paleBlueRows tr:nth-child(even) {
+    background: #D0E4F5;
+  }
+  table.paleBlueRows thead {
+    background: #0B6FA4;
+    border-bottom: 5px solid #FFFFFF;
+  }
+  table.paleBlueRows thead th {
+    font-size: 17px;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-align: center;
+    border-left: 2px solid #FFFFFF;
+  }
+  table.paleBlueRows thead th:first-child {
+    border-left: none;
+  }
+  
+  table.paleBlueRows tfoot {
+    font-size: 14px;
+    font-weight: bold;
+    color: #333333;
+    background: #D0E4F5;
+    border-top: 3px solid #444444;
+  }
+  table.paleBlueRows tfoot td {
+    font-size: 14px;
+  }

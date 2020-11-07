@@ -1,0 +1,11 @@
+{
+  "name": "cadastro",
+  "version": "1.0.0",
+  "description": "Cadastro de clientes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "hugo",
+  "license": "ISC"
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link href="estilo.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="menu">
+        <a class="ativo" href="#">Início</a>
+        <a href="#produtos">Produtos</a>
+        <a href="#clientes">Clientes</a>
+    </div>
+    <div class="form">
+        <form name="frmCliente">
+            <fieldset>
+                <legend>Cadastro de clientes</legend>
+                <div class="form-group">
+                    <label>Código:</label>
+                    <input class="input-control" type="number" size="5" id="codigo"/>
+
+                    <label class="right-inline">Nome:</label>
+                    <input class="input-control" type="text" size="40" id="nome" />
+
+                    <label class="right-inline">CEP:</label>
+                    <input class="input-control" type="text" size="10" id="cep" />
+                </div>
+                <div class="form-group">
+                    <label>Endereço:</label>
+                    <input class="input-control" type="text" size="40" id="endereco" />
+
+                    <label class="right-inline">Bairro:</label>
+                    <input class="input-control" type="text" size="18" id="bairro" />
+
+                    <label>Cidade:</label>
+                    <input class="input-control" type="text" size="30" id="cidade" />
+                </div>
+                <div class="form-group">
+                    <label>Informações: </label>
+                    <textarea class="input-control" id="observacoes"></textarea>
+                </div>
+                <div class="form-group">
+                    <label>Limite de crédito</label>
+                    <input class="input-control" id="limite" size="10" type="number"/>
+                    <label class="right-inline">Limite já utilizado</label>
+                    <input class="input-control" type="number" size="10" id="utilizado"/>
+                    <label class="right-inline">Saldo</label>
+                    <input class="input-control" type="number" size="10" id="saldo" disabled/>
+                </div>
+                <div class="form-group">
+                    <label></label>
+                    <button id="salvar">💾 Salvar</button>
+                    <button id="cancelar">❌ Cancelar</button>
+                </div>
+            </fieldset>
+        </form>
+    </div>
+    <div id="listagem">
+
+    </div>
+    <script src="cliente.js"></script>
+</body>
+</html>
